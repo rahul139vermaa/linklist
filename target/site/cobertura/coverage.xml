@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="1.0" branch-rate="1.0" lines-covered="23" lines-valid="23" branches-covered="14" branches-valid="14" complexity="2.8333333333333335" version="2.0.3" timestamp="1475582130809">
+	<sources>
+		<source>--source</source>
+		<source>/home/rahul/workspace/CXE/CXE-DEV/assignment/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="finder" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="finder.LoopFinder" filename="finder/LoopFinder.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="finder.impl" line-rate="1.0" branch-rate="1.0" complexity="3.2">
+			<classes>
+				<class name="finder.impl.LinkedListLoopFinder" filename="finder/impl/LinkedListLoopFinder.java" line-rate="1.0" branch-rate="1.0" complexity="3.2">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lmodel/Node;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="13" hits="11" branch="false"/>
+								<line number="14" hits="11" branch="false"/>
+								<line number="15" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="findStartNodeOfLoopElseNull" signature="(Lmodel/Node;)Lmodel/Node;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="29" hits="10" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="30" hits="7" branch="false"/>
+								<line number="31" hits="30" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="32" hits="23" branch="false"/>
+								<line number="33" hits="23" branch="false"/>
+								<line number="35" hits="7" branch="false"/>
+								<line number="37" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="getLoopStartNodeElseNull" signature="()Lmodel/Node;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="18" hits="11" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="19" hits="10" branch="false"/>
+								<line number="20" hits="10" branch="false"/>
+							</lines>
+						</method>
+						<method name="getNodeFromLoopElseNull" signature="()Lmodel/Node;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="42" hits="10" branch="false"/>
+								<line number="43" hits="10" branch="false"/>
+								<line number="44" hits="80" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="45" hits="77" branch="false"/>
+								<line number="46" hits="77" branch="false"/>
+								<line number="47" hits="77" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="48" hits="7" branch="false"/>
+								<line number="51" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="isLinkedListNull" signature="()Z" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="24" hits="11" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="25" hits="10" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="11" branch="false"/>
+						<line number="14" hits="11" branch="false"/>
+						<line number="15" hits="11" branch="false"/>
+						<line number="18" hits="11" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="19" hits="10" branch="false"/>
+						<line number="20" hits="10" branch="false"/>
+						<line number="24" hits="11" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="25" hits="10" branch="false"/>
+						<line number="29" hits="10" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="30" hits="7" branch="false"/>
+						<line number="31" hits="30" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="32" hits="23" branch="false"/>
+						<line number="33" hits="23" branch="false"/>
+						<line number="35" hits="7" branch="false"/>
+						<line number="37" hits="3" branch="false"/>
+						<line number="42" hits="10" branch="false"/>
+						<line number="43" hits="10" branch="false"/>
+						<line number="44" hits="80" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="45" hits="77" branch="false"/>
+						<line number="46" hits="77" branch="false"/>
+						<line number="47" hits="77" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="48" hits="7" branch="false"/>
+						<line number="51" hits="3" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
